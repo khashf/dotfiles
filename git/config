@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[submodule "dotbot"]
+	url = https://github.com/anishathalye/dotbot
+	active = true
