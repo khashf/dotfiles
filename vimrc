@@ -3,14 +3,20 @@ set nocompatible " not vi compatible
 "----------------
 " Pathogen
 "----------------
-
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()
+call pathogen#helptags()
 
 "----------------
 " Syntax
 "----------------
 
+syntax on " turn on syntax highlighting
+set showmatch " show matching braces when cursor is over them
+
 " file type
 filetype plugin indent on
+
 
 "----------------
 " Indent

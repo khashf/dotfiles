@@ -8,7 +8,6 @@ alias c='clear'
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
-alias ~="cd ~"
 
 
 # default option for original command

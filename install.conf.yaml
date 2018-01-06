@@ -18,3 +18,5 @@
     ~/.vimrc:
     ~/.cheat:
 
+- shell:
+  - git update-submodules # after linking ~/.gitconfig

@@ -1,6 +1,9 @@
 [user]
 	email = 6059347+khashf@users.noreply.github.com
 	name = Khuong Luu
+	
+[github]
+    user = khashf
 
 [alias]
 	update-submodules = submodule update --init --recursive
