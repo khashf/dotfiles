@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 # Sexy Bash Prompt, inspired by "Extravagant Zsh Prompt"
-# Screenshot: http://img.gf3.ca/d54942f474256ec26a49893681c49b5a.png
 # A big thanks to \amethyst on Freenode
 
 if [[ $COLORTERM = gnome-* && $TERM = xterm ]]  && infocmp gnome-256color >/dev/null 2>&1; then TERM=gnome-256color; fi
@@ -107,6 +106,7 @@ PS1+="\[${BOLD}${PURPLE}\]\$(prompt_git \"\[${WHITE}\] on \[${BOLD}${PURPLE}\]\"
 
 PS1+="\[$WHITE\]\n\$ "
 PS1+="\[$RESET\]"
+PROMPT_DIRTRIM=5
 export PS1;
 
 PS2="\[${BOLD}${YELLOW}\]→ \[${RESET}\]";
