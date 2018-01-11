@@ -17,6 +17,7 @@
     ~/.vim:
     ~/.vimrc:
     ~/.cheat:
+    ~/.config/redshift.conf: config/redshift.conf
 
 - shell:
   - git update-submodules # after linking ~/.gitconfig
