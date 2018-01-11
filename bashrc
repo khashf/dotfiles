@@ -13,7 +13,8 @@ source ~/.bash/aliases.bash
 
 source ~/.bash/prompt.bash
 
+source ~/.bash/theme.bash
+
 source ~/.bash/extras.bash
 
 source ~/.bash/local_after.bash
-

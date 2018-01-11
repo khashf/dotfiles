@@ -1,7 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/home/khuong/dev/cs344/fsort'
 let g:netrw_dirhist_2='/home/khuong/.cheat'
 let g:netrw_dirhist_3='/home/khuong/dev/udemy-docker-mastery/compose-sample-3/html/css'
 let g:netrw_dirhist_4='/home/khuong/dev/udemy-docker-mastery/compose-sample-1'
 let g:netrw_dirhist_5='/etc/terminfo'
+let g:netrw_dirhist_6='/home/khuong/.dotfiles/git/modules'
+let g:netrw_dirhist_7='/home/khuong/.nano'
