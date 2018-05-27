@@ -50,6 +50,7 @@ set t_kb=
 set t_kD=^[[3~
 imap ^? ^H
 
+set nu
 set relativenumber "absolute numbering & relative numbering
 set incsearch " incremental search (as string is being typed)
 set hls " high light search
