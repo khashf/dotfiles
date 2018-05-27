@@ -23,7 +23,7 @@ alias egrep='egrep --color=auto'
 alias cp="cp -i"
 alias rm="rm -i"
 alias mv="mv -i"
-
+alias valgrind="valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes"
 # ps processes ran by $USER
 alias psme="ps -o ppid,pid,euser,stat,%cpu,rss,args | head -n 1; ps -eH -o ppid,pid,euser,stat,%cpu,rss,args | grep $USER"
 stty erase '^?'
