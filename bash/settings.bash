@@ -34,6 +34,14 @@ shopt -s checkwinsize
 # auto-correct typo in path when using 'cd'
 shopt -s cdspell
 
+# enable extended globbing
+# ?(pattern-list)   Matches zero or one occurrence of the given patterns
+# *(pattern-list)   Matches zero or more occurrences of the given patterns
+# +(pattern-list)   Matches one or more occurrences of the given patterns
+# @(pattern-list)   Matches one of the given patterns
+# !(pattern-list)   Matches anything except one of the given patterns
+shopt -s extglob
+
 # enable bash_completion
 if ! shopt -oq posix; then
   if [ -f /usr/share/bash-completion/bash_completion ]; then
