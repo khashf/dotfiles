@@ -9,6 +9,9 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
+# redirect
+#alias python=python3
+#alias pip=pip3
 
 # default option for original command
 alias ls='ls -l -g --sort=time --group-directories-first --color=auto'
