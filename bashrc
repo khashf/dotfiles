@@ -1,7 +1,7 @@
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
 
-echo "Load ~/.bashrc"
+#echo "Load ~/.bashrc"
 
 source ~/.bash/local_before.bash
 
