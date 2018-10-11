@@ -106,7 +106,7 @@ PS1+="\[${BOLD}${PURPLE}\]\$(prompt_git \"\[${WHITE}\] on \[${BOLD}${PURPLE}\]\"
 
 PS1+="\[$WHITE\]\n\$ "
 PS1+="\[$RESET\]"
-PROMPT_DIRTRIM=5
+PROMPT_DIRTRIM=4
 export PS1;
 
 PS2="\[${BOLD}${YELLOW}\]→ \[${RESET}\]";

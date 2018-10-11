@@ -19,4 +19,4 @@
     ~/.cheat:
 
 - shell:
-  - git update-submodules # after linking ~/.gitconfig
+  - git submodule update --init --recursive # after linking ~/.gitconfig
