@@ -1,6 +1,6 @@
 
 export EDITOR='vim';
-export LESS="QMcd";
+export LESS="QMcdR";
 export MORE="-c";
 export PAGER=less;
 
