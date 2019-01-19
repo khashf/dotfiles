@@ -27,6 +27,8 @@ alias valgrind="valgrind --leak-check=full --show-leak-kinds=all --track-origins
 # ps processes ran by $USER
 alias psme="ps -o ppid,pid,euser,stat,%cpu,rss,args | head -n 1; ps -eH -o ppid,pid,euser,stat,%cpu,rss,args | grep $USER"
 stty erase '^?'
+alias psu="ps -o ppid,pid,euser,stat,%cpu,rss,args | head -n 1; ps -eH -o ppid,pid,euser,stat,%cpu,rss,args | grep"
+
 
 # Add an "alert" alias for long running commands.  
 # Use like so: sleep 10; alert
