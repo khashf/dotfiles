@@ -18,3 +18,5 @@ source ~/.bash/theme.bash
 source ~/.bash/extras.bash
 
 source ~/.bash/local_after.bash
+
+source ~/.bash/local_ignore.bash
