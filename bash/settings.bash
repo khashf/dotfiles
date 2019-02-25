@@ -26,7 +26,7 @@ export LC_ALL='en_US.UTF-8'
 export LESS_TERMCAP_md="${yellow}";
 
 # Don't clear the screen after quiting a man page
-export MANPAGER='less -X'
+export MANPAGER='less'
 
 # update the values of LINES and COLUMNS after each command
 shopt -s checkwinsize

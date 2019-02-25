@@ -29,3 +29,7 @@ export NVM_DIR="$HOME/.nvm";
 
 # Intel C++ compiler (icpc)
 source /opt/intel/parallel_studio_xe_2018/bin/psxevars.sh > /dev/null 2>&1
+
+source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+export WORKON_HOME=~/.venvs/
+
