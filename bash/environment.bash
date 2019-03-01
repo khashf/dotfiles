@@ -30,6 +30,14 @@ export NVM_DIR="$HOME/.nvm";
 # Intel C++ compiler (icpc)
 source /opt/intel/parallel_studio_xe_2018/bin/psxevars.sh > /dev/null 2>&1
 
+# virtualenvwrapper
 source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 export WORKON_HOME=~/.venvs/
+
+# chef
+eval "$(chef shell-init bash)"
+export PATH=/opt/kitchen/bin:$PATH
+export KITCHEN_GLOBAL_YAML="/opt/kitchen/kitchen.global.yml"
+
+
 
