@@ -91,6 +91,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " Automatically open nerdtreee when vim starts up with no file specified
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+" Show hidden file
+let NERDTreeShowHidden=1
 
 " vim-airline
 let g:airline_theme='powerlineish'
