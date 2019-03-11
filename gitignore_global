@@ -24,3 +24,7 @@
 ._*
 .Trashes
 Thumbs.db
+
+# Git things #
+# ############
+.orig
