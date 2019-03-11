@@ -61,6 +61,27 @@ set ignorecase
 set smartcase " don't ignore all-cap
 nmap <C-e> :e#<CR>
 
+" Copy-paste to/from clipboard
+inoremap <C-v> <ESC>"+pa
+vnoremap <C-c> "+y
+vnoremap <C-x> "+d"
+
+"--------------------
+" Specific file types
+"--------------------
+
+" Markdown
+"
+
+" force Markdown without installing vim-markdown
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+" enable fenced code block syntax highlighting
+let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
+" disable markdown syntax concealing
+let g:markdown_syntax_conceal = 0
+" limit syntax highlighting to min 100
+let g:markdown_minlines = 100
+
 "----------------
 " Windows
 "----------------
