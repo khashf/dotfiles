@@ -33,12 +33,15 @@ set showmatch " show matching braces when cursor is over them
 
 set autoindent
 
-" show existing tab with 4 spaces width
-set tabstop=4
-set softtabstop=4
-" on pressing tab, insert 4 spaces
-set shiftwidth=4
+function! Tab(size)
+    let &tabstop = a:size " set the width of a TAB key (but still a \t char)
+    let &softtabstop = a:size " sets the number of columns for a TAB key
+    let &shiftwidth = a:size " set indent width
+endfunction
+
 set expandtab
+call Tab(4)
+
 
 "----------------
 " Editing
@@ -160,7 +163,6 @@ let g:NERDTrimTrailingWhitespace = 1
 " Local customizations
 "---------------------
 
-" local customizations in ~/.vimrc_local
 let $LOCALFILE=expand("~/.vimrc_local")
 if filereadable($LOCALFILE)
     source $LOCALFILE
