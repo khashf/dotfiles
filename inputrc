@@ -34,3 +34,6 @@ set skip-completed-text on
 # Ensure left and right arrow work as normal
 "\e[C": forward-char
 "\e[D": backward-char
+# Ensure Ctrl+left and Ctrl+right work as normal
+"\e[1;5D" backward-word
+"\e[1;5C" forward-word
